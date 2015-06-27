@@ -1,0 +1,85 @@
+/* DUS LLC Style Sheet 
+	Author: 	Thomas xxx_blazeit420_xxx Prislac (MLG SKRUBLORD)
+	Date:		6-1-15
+*/
+
+/* Nav Styles */
+
+nav {
+display: block;
+width: auto;
+position: ;
+top: 0;
+  left: 0;
+  z-index: 9999;
+
+  margin-top: 5px;
+  margin-right: ;
+margin-left: ;
+margin-bottom: 20px;
+padding: 0;
+  
+}
+
+a#nav:link, a#nav:visited {
+    display: block;
+    text-align: top;
+    font-weight: bold;
+    color: #FFFFFF;
+	width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-text-shadow: 1px 1px 10px black ;
+	-web-text-shadow: 1px 1px 10px black ;
+	text-shadow: 1px 1px 10px black ;
+}
+
+a#nav:hover, a#nav:active {
+    background-color: ;
+    color: gold;
+    -moz-text-shadow: 1px 1px 10px red ;
+	-web-text-shadow: 1px 1px 10px red ;
+	text-shadow: 1px 1px 10px red ;
+}
+
+img#nav {
+background: rgb(237, 237, 237);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+img#nav:hover {
+
+-moz-box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+-webkit-box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+}
+
+img#nav:active {
+-moz-box-shadow: red 1px 1px 30px;
+-webkit-box-shadow: red 1px 1px 30px;
+box-shadow: red 1px 1px 30px;
+}
+
+
+td#nav {
+text-align: left;
+width: auto;
+vertical-align: text-center;
+    -moz-text-shadow: 1px 1px 3px gold ;
+	-web-text-shadow: 1px 1px 3px gold ;
+	text-shadow: 1px 1px 3px gold ;
+	
+background: -o-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -ms-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -moz-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -webkit-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -radial-gradient(left, white 60%, rgb(237, 237, 237));
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+
+}

@@ -1,0 +1,169 @@
+
+/* DUS LLC Table Style Sheet 
+	Author: 	Thomas Prislac
+	Date:		5-25-15
+*/
+
+/* Table Style */
+table {
+  font-family: "Trebuchet MS", "Lucida Console", Monaco, monospace;
+  
+border-collapse: collapse;
+table-layout: auto;  
+}
+table#founder {
+width: 96%;
+margin-left:2%; 
+margin-right:2%;
+height: auto;
+table-layout: auto;
+background: -o-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -ms-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -moz-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -webkit-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -radial-gradient(left, white 60%, rgb(237, 237, 237));
+-moz-border-radius: 30px;
+-webkit-border-radius: 30px;
+border-radius: 30px;
+}
+
+td#welcome {
+text-align: justify;
+width: auto;
+vertical-align: text-top;
+    -moz-text-shadow: 1px 1px 3px gold ;
+	-web-text-shadow: 1px 1px 3px gold ;
+	text-shadow: 1px 1px 3px gold ;
+	
+background: -o-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -ms-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -moz-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -webkit-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -radial-gradient(left, white 60%, rgb(237, 237, 237));
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+
+
+
+
+}
+th#portfolio {
+vertical-align: top;
+width: auto;
+    padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+}
+th {
+vertical-align: top;
+width: auto;
+    padding-left: 15px;
+}
+th#whydus {
+vertical-align: top;
+width: auto;
+    padding-left: 0px;
+	padding-right: 0px;
+}
+
+td#whydus {
+padding-left: 15px;
+padding-right: 15px;
+text-align: justify;
+width: auto;
+vertical-align: top;
+    -moz-text-shadow: 1px 1px 3px gold ;
+	-web-text-shadow: 1px 1px 3px gold ;
+	text-shadow: 1px 1px 3px gold ;
+	
+background: -o-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -ms-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -moz-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -webkit-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -radial-gradient(center, white 60%, rgb(237, 237, 237));
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+
+}
+img#portfolio:hover {
+-moz-box-shadow: rgb(0, 102, 0) 1px 1px 30px;
+-webkit-box-shadow: rgb(0, 102, 0) 1px 1px 30px;
+box-shadow: rgb(0, 102, 0) 1px 1px 30px;
+}
+
+img#portfolio:active {
+-moz-box-shadow: red 1px 1px 30px;
+-webkit-box-shadow: red 1px 1px 30px;
+box-shadow: red 1px 1px 30px;
+}
+
+img#portfolio {
+float:left; 
+display:inline; 
+margin-right:10px;
+background: rgb(237, 237, 237);
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+img#whydus:hover {
+-moz-box-shadow: rgb(0, 102, 0) 1px 1px 30px;
+-webkit-box-shadow: rgb(0, 102, 0) 1px 1px 30px;
+box-shadow: rgb(0, 102, 0) 1px 1px 30px;
+}
+
+img#whydus:active {
+-moz-box-shadow: red 1px 1px 30px;
+-webkit-box-shadow: red 1px 1px 30px;
+box-shadow: red 1px 1px 30px;
+}
+
+img#whydus {
+float:left; 
+display:inline; 
+margin-right:10px;
+background: rgb(237, 237, 237);
+-moz-border-radius: 30px;
+-webkit-border-radius: 30px;
+border-radius: 30px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+img#table {
+background: rgb(237, 237, 237);
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+img#table:active {
+-moz-box-shadow: red 1px 1px 15px;
+-webkit-box-shadow: red 1px 1px 15px;
+box-shadow: red 1px 1px 15px;
+}
+
+img#table:hover {
+
+-moz-box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+-webkit-box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+}
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 5px 0 10px 20px;
+    text-indent: -1em;
+	}
+	
+	

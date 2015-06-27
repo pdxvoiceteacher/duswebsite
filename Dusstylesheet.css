@@ -1,0 +1,158 @@
+/* DUS LLC Style Sheet 
+	Author: 	Thomas Prislac
+	Date:		5-25-15
+*/
+
+/* Header Styles */
+header {
+background: top center no-repeat;
+-o-background-size: contain;
+-moz-background-size: contain;
+-webkit-background-size: contain;
+background-size: contain;
+
+height: 125px;
+width: 100%;
+}
+
+h1 {
+font-size: 275%;
+margin: 0;
+padding: 0;
+    -moz-text-shadow: 1px 1px 3px black ;
+	-web-text-shadow: 1px 1px 3px black ;
+	text-shadow: 1px 1px 3px black ;
+}
+h2 {
+font-size: 200%;
+margin-right: 5%;
+margin-left: 5%;
+padding: 0;
+    -moz-text-shadow: 1px 1px 1px black ;
+	-web-text-shadow: 1px 1px 1px black ;
+	text-shadow: 1px 1px 1px black ;
+-webkit-animation: fade;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+	
+	-moz-animation: fade;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: 1;
+	
+	-o-animation: fade;
+    -o-animation-duration: 3s;
+    -o-animation-iteration-count: 1;
+	
+	}
+	@-webkit-keyframes fade {
+    
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+	@-moz-keyframes fade {
+    
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+	@-o-keyframes fade {
+    
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+	
+/* Body Styles */
+body {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+p#bodytext {
+text-align: justify;
+vertical-align: top;
+margin-right: 0%
+}
+p#foundertext {
+line-height: 175%;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: justify;
+width: auto;
+vertical-align: top;
+    -moz-text-shadow: 1px 1px 3px gold ;
+	-web-text-shadow: 1px 1px 3px gold ;
+	text-shadow: 1px 1px 3px gold ;
+	
+
+}
+
+
+/* Footer Style */
+
+footer { 
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-style: bold;
+background: -o-linear-gradient(white, rgb(237, 237, 237) 70%, black);
+background: -ms-linear-gradient(white, rgb(237, 237, 237) 70%, black);
+background: -moz-linear-gradient(white, rgb(237, 237, 237) 70%, black);
+background: -webkit-linear-gradient(white, rgb(237, 237, 237) 70%, black);
+background: linear-gradient(white, rgb(237, 237, 237) 70%, black);
+-moz-text-shadow: 1px 1px 3px white ;
+	-web-text-shadow: 1px 1px 3px white ;
+	text-shadow: 1px 1px 3px white ;
+
+}
+
+img#footer {
+
+background: -o-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -ms-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -moz-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -webkit-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: radial-gradient(center, white 60%, rgb(237, 237, 237));
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+img#footer:hover {
+
+-moz-box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+-webkit-box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+box-shadow: rgb(0, 102, 0) 1px 1px 15px;
+}
+
+img#footer:active {
+-moz-box-shadow: red 1px 1px 30px;
+-webkit-box-shadow: red 1px 1px 30px;
+box-shadow: red 1px 1px 30px;
+}
+
+/* unvisited link */
+a:link {
+text-decoration: none;
+    color: #092B4C;
+}
+
+a#portfolio:link {
+text-decoration: none;
+    color: #092B4C;
+}
+/* visited link */
+a:visited {
+text-decoration: none;
+    color: rgb(61, 61, 0);
+	 -moz-text-shadow: 1px 1px 3px black ;
+	-web-text-shadow: 1px 1px 3px black ;
+	text-shadow: 1px 1px 3px black ;
+}
+
+a#portfolio:visited {
+text-decoration: none;
+    color: rgb(61, 61, 0);
+	 -moz-text-shadow: 1px 1px 3px black ;
+	-web-text-shadow: 1px 1px 3px black ;
+	text-shadow: 1px 1px 3px black ;
+}

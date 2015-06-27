@@ -1,0 +1,149 @@
+/* DUS LLC Style Sheet 
+	Author: 	Thomas xxx_blazeit420_xxx Prislac (MLG SKRUBLORD)
+	Date:		6-4-15
+*/
+
+/* Input Text Border Color Animation */
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #99AD99;
+  
+Height: 20px;
+width: 98%;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px #088A08;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #088A08;
+}
+
+textarea#comments {
+display: block;
+float: left;
+Height: 150px;
+margin: 10px 0px;
+width: 98%;
+}
+
+/* fieldset styles */
+fieldset {
+border-width: 0px;
+}
+
+/* input email border color animation */
+
+input[type=email], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #99AD99;
+  Height: 20px;
+width: 98%;
+}
+ 
+input[type=email]:focus, textarea:focus {
+  box-shadow: 0 0 5px #088A08;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #088A08;
+}
+
+/* select border color animation */
+
+select#infsrc, textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #99AD99;
+}
+ 
+select#infsrc:focus, textarea:focus {
+  box-shadow: 0 0 5px #088A08;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #088A08;
+}
+
+/* Body Styles */
+body {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+form {
+
+vertical-align: top;
+margin-right: 0%;
+line-height: 175%;
+padding-left: 0%;
+padding-right: 0%;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: left;
+width: auto;
+vertical-align: top;
+    -moz-text-shadow: 1px 1px 3px gold ;
+	-web-text-shadow: 1px 1px 3px gold ;
+	text-shadow: 1px 1px 3px gold ;
+	
+
+}
+/* Body Styles */
+body {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+p#form {
+line-height: 175%;
+padding-left: px;
+padding-right: px;
+margin-left:10%;
+margin-right:10%;
+text-align: justify;
+width: auto;
+vertical-align: top;
+    -moz-text-shadow: 1px 1px 3px gold ;
+	-web-text-shadow: 1px 1px 3px gold ;
+	text-shadow: 1px 1px 3px gold ;
+	
+
+}
+legend {
+background: -o-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -ms-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -moz-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -webkit-radial-gradient(left, white 60%, rgb(237, 237, 237));
+background: -radial-gradient(left, white 60%, rgb(237, 237, 237));
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+color: black;
+padding: 3px 0px;
+text-indent: 5px;
+width: 99%;
+}
+
+/*button style*/
+input[type="submit"], input[type="reset"] {
+display: inline;
+float: none;
+height: 40px;
+width: 250px;
+}
